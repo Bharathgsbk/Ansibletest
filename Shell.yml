@@ -2,12 +2,12 @@
   - name:Execute Shell
     hosts:server
     tasks:
-     - name : Shell command
-      shell:
-         "cat File"
+        - name : Shell command
+             shell:
+                   "cat File"
 
-     - name : Shell command
-      shell:
-         "ls -lart"
+        - name : Shell command
+             shell:
+                   "ls -lart"
          
     
