@@ -1,6 +1,6 @@
 ---
   - name:Execute Shell
-    hosts: servers
+    hosts: server
     tasks:
 
     - name : Shell command
