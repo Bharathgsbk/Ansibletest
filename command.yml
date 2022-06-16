@@ -5,8 +5,8 @@
 
     - name : Shell command
       shell:
-         "cat password"
+            "cat password"
          
     - name : Shell command
       shell:
-         "history"
+            "history"
