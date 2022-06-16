@@ -1,7 +1,9 @@
-- name: Create a file in the home directory if it doesn't exist
+---
+- name: Shell module example
   hosts: webservers
   tasks:
-  	- name: Create a file in the home directory
-      shell: echo "Hey guys!" > $HOME/hello.txt
-      args:
-      	creates: "$HOME/hello.txt"
+  	- name: Run multiple commands
+     shell: |
+     	date > /tmp/date.txt
+       uptime > /tmp/uptime.txt
+       echo "Hello World" > /tmp/hello.txt
