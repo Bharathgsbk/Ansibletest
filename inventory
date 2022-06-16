@@ -1,0 +1,3 @@
+[servers]
+
+683b06656b3c.mylabserver.com ansible_connection=ssh ansible_user=cloud_user ansible_ssh_pass=Venkat@123 ansible_become_pass=Venkat@123
